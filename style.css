@@ -77,6 +77,18 @@ h1, h2, h3, .feature {
   border: 2px solid #333;
   transition: 0.3s ease;
   border-radius: 10px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Ensure card images are cropped and uniform */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .product-card:hover {
