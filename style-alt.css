@@ -14,8 +14,8 @@ html,body{
   color:var(--text);
 }
 
-/* dim the starfield slightly for contrast */
-#starfield{ opacity:0.55; filter:drop-shadow(0 8px 24px rgba(0,0,0,0.6)); }
+/* remove starfield in modern design */
+#starfield{ display: none !important; }
 
 .hero{ background:transparent; padding:7rem 0; }
 .hero .hero-content h1{ font-family: 'Orbitron', sans-serif; font-size:2.6rem; letter-spacing:1px; color:var(--text); margin-bottom:.25rem; }
