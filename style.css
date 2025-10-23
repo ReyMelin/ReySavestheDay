@@ -47,7 +47,7 @@ h1, h2, h3, .feature {
 
 .hero .nova {
   color: #ff00ff;
-  text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+  text-shadow: 0 0 15px #1f081f, 0 0 15px #ff00ff;
 }
 
 .hero p {
@@ -59,7 +59,7 @@ h1, h2, h3, .feature {
 .cta, .btn-custom {
   background: linear-gradient(90deg, #0ff, #ff00ff);
   border: none;
-  color: #fff !important;
+  color: #040313 !important;
   border-radius: 30px;
   padding: 12px 25px;
   font-weight: bold;
@@ -68,7 +68,7 @@ h1, h2, h3, .feature {
 
 .cta:hover, .btn-custom:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 25px #0ff, 0 0 40px #ff00ff;
+  box-shadow: 0 0 15px #0ff, 0 0 30px #ff00ff;
 }
 
 /* Product Cards */
