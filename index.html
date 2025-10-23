@@ -12,13 +12,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link id="theme-stylesheet" rel="stylesheet" href="style.css">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
   <!-- Starfield Canvas -->
   <canvas id="starfield"></canvas>
+
+  <!-- Theme switcher -->
+  <div class="theme-switcher" style="position:fixed;top:1rem;right:1rem;z-index:9999;">
+    <button id="theme-toggle" class="btn btn-sm btn-outline-light" aria-pressed="false">Modern View</button>
+  </div>
 
   <!-- Hero Section -->
   <section class="hero d-flex align-items-center justify-content-center text-center">
